@@ -4,7 +4,7 @@ const cocoSsd = require('@tensorflow-models/coco-ssd');
 const fs = require('fs');
 
 // Загрузите изображение
-const image = fs.readFileSync('./images/test.png');
+const image = fs.readFileSync('./images/test_5.jpeg');
 const decodedImage = tf.node.decodeImage(image, 3);
 
 (async () => {
